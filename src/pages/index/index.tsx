@@ -30,7 +30,7 @@ type PageDispatchProps = {
 
 type PageOwnProps = {}
 
-type PageState = {}
+// type PageState = {}
 
 type IProps = PageStateProps & PageDispatchProps & PageOwnProps
 

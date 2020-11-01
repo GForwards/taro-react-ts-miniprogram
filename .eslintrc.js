@@ -1,3 +1,11 @@
 module.exports = {
-  'extends': ['taro/react']
+  'extends': ['taro/react', 'prettier'],
+  'rules': {
+    'no-unused-vars': [
+      'error',
+      {
+        varsIgnorePattern: 'Taro',
+      },
+    ],
+  }
 }

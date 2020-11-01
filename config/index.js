@@ -1,3 +1,5 @@
+import path from 'path'
+
 const config = {
   projectName: 'miniprogram-demo1',
   date: '2020-10-30',
@@ -9,6 +11,9 @@ const config = {
   },
   sourceRoot: 'src',
   outputRoot: 'dist',
+  alias: {
+    '@': path.resolve(__dirname, '..', 'src'),
+  },
   plugins: [],
   defineConstants: {
   },
